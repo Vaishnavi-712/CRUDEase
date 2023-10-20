@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font */
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333;
+}
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* Apply Raleway font to headings */
+body{
+ 
+}
+
+.card-link{
+  cursor: pointer;
+}
+
+nav{
+  background-color: #f0f0f0;
+  color: #fff; /* Header text color */
+  padding: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+body {
+  background-color:  #f0f0f0; /* Light gray background */
+}
+.container {
+  font-family: 'Raleway', sans-serif;
+  padding: 40px;
+  font-size: 18px;
+  
+}
+
+.custom-button{
+  background-color: #333;
+  color: white;
+  border: #333;
+  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+
+  /* Hover effect: Change background color to white and text color to grey */
+  &:hover {
+    background-color: white;
+    color: grey;
+  }
+
+  /* Active effect (when the button is clicked): Reset the colors */
+  &:active {
+    background-color: grey;
+    color: white;
+  }
+}
+
+
+
+
+
+
+.navbar-brand{
+  color: #333;
+  font-family: monospace;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 38px;
+
+}
+.custom-input{
+  width: 30%; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+.nav-item{
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
